@@ -11,6 +11,10 @@ int main()
     switch(n){
         case 1: printf("The sum of entered 2 numbers is : %d",a-b);
         break;
+        case 3: printf(" The multiplication of the 2 numbers is %d",a*b);
+        break;
+        case 4: printf(" a /b is %d",a/b);
+        break;
     }
     return 0;
 }
